@@ -1,0 +1,46 @@
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  body {
+    margin: 0em;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  
+  header {
+    grid-area: header;
+    text-align: center;
+    background-color: #245995;
+    color: white;
+  }
+  
+  
+  footer {
+    grid-area: footer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #245995;
+    color: white;
+    padding-left: 1em;
+    text-align: center;
+  }
+
+  footer a {
+      color: white;
+  }
+
+  main {
+      padding: 2em;
+  }

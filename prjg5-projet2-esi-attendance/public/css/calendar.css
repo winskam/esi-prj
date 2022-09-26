@@ -1,0 +1,28 @@
+#table_presences {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8pm;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+th {
+    background-color: #245995;
+    color: wheat;
+}
+
+input {
+    color: #245995;
+    background-color: lightgray;
+    width: 100%;
+}
+
+input:hover {
+    background-color: gray;
+}
